@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./background_image.jpg);
+}
+
+#container{
+    max-width: 1240px;
+    /* height: 1036px; */
+    background-color: rgb(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+}
+#title{
+    font-size: 3.1rem;
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 0.05em;
+    
+    
+}
+span{
+    color: red;
+}
+#description{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.5rem;
+}
+#header{
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+}
+
+#surver-form-container{
+    width: 500px;
+    background-color: rgb(0, 0, 0, 0.8);
+    margin: auto;
+    /* padding de aralar virgul koyma */
+    padding: 10px 40px;
+
+}
+
+#name,
+#age,
+#email,
+#dropdown,
+#feedback{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.input-box{
+    margin-top: 10px;
+}
+#form-button{
+    width: 160px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /* butonun ustune gelince el isareti */
+}
+.form-submit{
+    margin: auto;
+    /* margin:auto nun calismasi icin width vermek zorundasin */
+    width: 160px;
+    margin-top: 15px;
+    
+}
